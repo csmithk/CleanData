@@ -21,10 +21,10 @@ merges Y with activities to map to string representation
 re-order Y with arrange and the order column to put back into the correct order and then select on the name so now Y is a list of activity names instead of the numeric representation
 gets the mean and std columns using grep and then extracts only the columns of interest with x[,colsWeCareAbout]
 uses cbind to bind the y and x_MeanStd (the X with only the mean and std columns)
-In this way, I have created the "tall" dataset as stated in the instructions.
+In this way, I have created the "long" dataset as stated in the instructions that adheres to the Tidy Data principles.
 
-After returning the tall dataset, I create a character vector of meaningful names for the summary data that will be created.  Initially, I was reading from the code book, but realized that without the code book, this wouldn't run correctly, so hard coded it in the file.
+After returning the tall dataset, I create a character vector of meaningful names for the summary data that will be created.  Initially, I was reading from the code book, but realized that without the code book, this wouldn't run correctly, so hard coded it in the file to ensure the meaningful column names were available.
 This character vector is used to set the column names of the tall dataset.
 Group_by is used to group the dataset by Subject and Activity
 summarize_each is used to calculate the means for all the columns, grouped by Subject and Activity.
-The resulting dataset is written to summaryData.txt
+The resulting tidy data set is written to summaryData.txt
