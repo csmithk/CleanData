@@ -1,0 +1,82 @@
+,"NOTE:  All mean and standard deviation variables are of type double and normalized between [-1, 1]"
+Subject,"number representing the subject id, range is 1 - 30"
+Activity,"string representing the activity recorded- WALKING2, WALKING_UPSTAIRS3, WALKING_DOWNSTAIRS4, SITTING5, STANDING6, LAYING"
+MeanOfTBodyAccMeanY,Mean of the mean of the X body accelerometer data (time)
+MeanOfTBodyAccMeanZ,Mean of the mean of the Y body accelerometer data (time)
+MeanOfTGravityAccMeanX,Mean of the mean of the Z body accelerometer data (time) 
+MeanOfTGravityAccMeanY,Mean of the mean of the X gravity accelerometer data (time)
+MeanOfTGravityAccMeanZ,Mean of the mean of the Y gravity accelerometer data (time)
+MeanOfTBodyAccJerkMeanX,Mean of the mean of the Z gravity accelerometer data (time) 
+MeanOfTBodyAccJerkMeanY,Mean of the mean of the X body accelerometer data (time) derived to obtain Jerk signals (time) 
+MeanOfTBodyAccJerkMeanZ,Mean of the mean of the Y body accelerometer data (time) derived to obtain Jerk signals (time) 
+MeanOfTBodyGyroMeanX,Mean of the mean of the Z body accelerometer data (time) derived to obtain Jerk signals (time) 
+MeanOfTBodyGyroMeanY,Mean of the mean of the X body gyroscope data (time)
+MeanOfTBodyGyroMeanZ,Mean of the mean of the Y body gyroscope data (time)
+MeanOfTBodyGyroJerkMeanX,Mean of the mean of the Z body gyroscope data (time) 
+MeanOfTBodyGyroJerkMeanY,Mean of the mean of the X body gyroscope data (time) derived to obtain Jerk signals (time) 
+MeanOfTBodyGyroJerkMeanZ,Mean of the mean of the Y body gyroscope data (time) derived to obtain Jerk signals (time) 
+MeanOfTBodyAccMagMean,Mean of the mean of the Z body gyroscope data (time) derived to obtain Jerk signals (time) 
+MeanOfTGravityAccMagMean,Mean of the mean of the magnitude of the XYZ accelerometer body signals (time)
+MeanOfTBodyAccJerkMagMean,Mean of the mean of the magnitude of the XYZ accelerometer gravity signals (time)
+MeanOfTBodyGyroMagMean,Mean of the mean of the magnitude of the XYZ jerk accelerometer body signals (time)
+MeanOfTBodyGyroJerkMagMean,Mean of the mean of the magnitude of the XYZ gyroscope body signals (time)
+MeanOfFBodyAccMeanX,Mean of the mean of the magnitude of the XYZ gyroscope jerk signals (time)
+MeanOfFBodyAccMeanY,Mean of the mean of the Fast Fourier Transform of the X accelerometer body 
+MeanOfFBodyAccMeanZ,Mean of the mean of the Fast Fourier Transform of the Y accelerometer body 
+MeanOfFBodyAccMeanFreqX,Mean of the mean of the Fast Fourier Transform of the Z accelerometer body 
+MeanOfFBodyAccMeanFreqY,Mean of the mean of the Fast Fourier Transform of the X accelerometer body frequency
+MeanOfFBodyAccMeanFreqZ,Mean of the mean of the Fast Fourier Transform of the Y accelerometer body frequency
+MeanOfFBodyAccJerkMeanX,Mean of the mean of the Fast Fourier Transform of the Z accelerometer body frequency
+MeanOfFBodyAccJerkMeanY,Mean of the mean of the Fast Fourier Transform of the X accelerometer jerk frequency
+MeanOfFBodyAccJerkMeanZ,Mean of the mean of the Fast Fourier Transform of the Y accelerometer jerk frequency
+MeanOfFBodyAccJerkMeanFreqX,Mean of the mean of the Fast Fourier Transform of the Z accelerometer jerk frequency
+MeanOfFBodyAccJerkMeanFreqY,Mean of the mean of the Fast Fourier Transform of the X accelerometer jerk frequency
+MeanOfFBodyAccJerkMeanFreqZ,Mean of the mean of the Fast Fourier Transform of the Y accelerometer jerk frequency
+MeanOfFBodyGyroMeanX,Mean of the mean of the Fast Fourier Transform of the Z accelerometer jerk frequency
+MeanOfFBodyGyroMeanY,Mean of the mean of the Fast Fourier Transform of the X gyroscope body data
+MeanOfFBodyGyroMeanZ,Mean of the mean of the Fast Fourier Transform of the Y gyroscope body data
+MeanOfFBodyGyroMeanFreqX,Mean of the mean of the Fast Fourier Transform of the Z gyroscope body data
+MeanOfFBodyGyroMeanFreqY,Mean of the mean of the Fast Fourier Transform of the X gyroscope body data
+MeanOfFBodyGyroMeanFreqZ,Mean of the mean of the Fast Fourier Transform of the Y gyroscope body data
+MeanOfFBodyAccMagMean,Mean of the mean of the Fast Fourier Transform of the Z gyroscope body data
+MeanOfFBodyAccMagMeanFreq,Mean of the mean of the magnitude of the Fast Fourier Transform of the XYZ accelerometer body data
+MeanOfFBodyBodyAccJerkMagMean,Mean of the mean of the magnitude of the Fast Fourier Transform of the XYZ accelerometer jerk data
+MeanOfFBodyBodyAccJerkMagMeanFreq,Mean of the mean of the magnitude of the Fast Fourier Transform of the XYZ accelerometer body  and jerk data
+MeanOfFBodyBodyGyroMagMean,Mean of the mean of the magnitude of the Fast Fourier Transform mean frequency  of the XYZ accelerometer body and jerk data
+MeanOfFBodyBodyGyroMagMeanFreq,Mean of the mean of the magnitude of the Fast Fourier Transform of the XYZ gyroscope body data
+MeanOfFBodyBodyGyroJerkMagMean,Mean of the mean of the magnitude of the Fast Fourier Transform of the XYZ gyroscope body data
+MeanOfFBodyBodyGyroJerkMagMeanFreq,Mean of the mean of the frequency of the magnitude of the Fast Fourier Transform of the XYZ accelerometer body data
+MeanOfTBodyAccStdX,Mean of the mean of the frequency of the magnitude of the Fast Fourier Transform of the XYZ gyroscope  body and jerk data
+MeanOfTBodyAccStdY,Mean of the standard deviation of the accelerometer body data for X axis
+MeanOfTBodyAccStdZ,Mean of the standard deviation of the accelerometer body data for Y axis
+MeanOfTGravityAccStdX,Mean of the standard deviation of the accelerometer body data for Z axis
+MeanOfTGravityAccStdY,Mean of the standard deviation of the accelerometer gravity data for X axis
+MeanOfTGravityAccStdZ,Mean of the standard deviation of the accelerometer gravity data for Y axis
+MeanOfTBodyAccJerkStdX,Mean of the standard deviation of the accelerometer gravity data for Z axis
+MeanOfTBodyAccJerkStdY,Mean of the standard deviation of the accelerometer jerk data for X axis
+MeanOfTBodyAccJerkStdZ,Mean of the standard deviation of the accelerometer jerk data for Y axis
+MeanOfTBodyGyroStdX,Mean of the standard deviation of the accelerometer jerk data for Z axis
+MeanOfTBodyGyroStdY,Mean of the standard deviation of the gyroscope body data for X axis
+MeanOfTBodyGyroStdZ,Mean of the standard deviation of the gyroscope body data for Y axis
+MeanOfTBodyGyroJerkStdX,Mean of the standard deviation of the gyroscope body data for Z axis
+MeanOfTBodyGyroJerkStdY,Mean of the standard deviation of the gyroscope jerk data for X axis
+MeanOfTBodyGyroJerkStdZ,Mean of the standard deviation of the gyroscope jerk data for Y axis
+MeanOfTBodyAccMagStd,Mean of the standard deviation of the gyroscope jerk data for Z axis
+MeanOfTGravityAccMagStd,Mean of the standard deviation of the magnitude accelerometer body data
+MeanOfTBodyAccJerkMagStd,Mean of the standard deviation of the magnitude accelerometer gravity data
+MeanOfTBodyGyroMagStd,Mean of the standard deviation of the magnitude accelerometer jerk data
+MeanOfTBodyGyroJerkMagStd,Mean of the standard deviation of the magnitude gyroscope body data
+MeanOfFBodyAccStdX,Mean of the standard deviation of the magnitude gyroscope body and jerk data
+MeanOfFBodyAccStdY,Mean of the standard deviation of the Fast Fourier Transform of the X accelerometer body data
+MeanOfFBodyAccStdZ,Mean of the standard deviation of the Fast Fourier Transform of the Y accelerometer body data
+MeanOfFBodyAccJerkStdX,Mean of the standard deviation of the Fast Fourier Transform of the Z accelerometer body data
+MeanOfFBodyAccJerkStdY,Mean of the standard deviation of the Fast Fourier Transform of the X accelerometer jerk data
+MeanOfTBodyAccMeanX,Mean of the standard deviation of the Fast Fourier Transform of the Y accelerometer jerk data
+MeanOfFBodyAccJerkStdZ,Mean of the standard deviation of the Fast Fourier Transform of the Z accelerometer jerk data
+MeanOfFBodyGyroStdX,Mean of the standard deviation of the Fast Fourier Transform of the X gyroscope body data
+MeanOfFBodyGyroStdY,Mean of the standard deviation of the Fast Fourier Transform of the Y gyroscope body data
+MeanOfFBodyGyroStdZ,Mean of the standard deviation of the Fast Fourier Transform of the Z gyroscope body data
+MeanOfFBodyAccMagStd,Mean of the standard deviation of the magnitude of the  Fast Fourier Transform of the accelerometer body data
+MeanOfFBodyBodyAccJerkMagStd,Mean of the standard deviation of the magnitude of the  Fast Fourier Transform of the accelerometer body and jerk data
+MeanOfFBodyBodyGyroMagStd,Mean of the standard deviation of the magnitude of the  Fast Fourier Transform of the gyroscope body data
+MeanOfFBodyBodyGyroJerkMagStd,Mean of the standard deviation of the magnitude of the  Fast Fourier Transform of the gyroscope body and jerk data
